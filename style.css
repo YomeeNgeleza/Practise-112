@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(49, 47, 47);
+  font-family: "Roboto", serif;
+}
+
+header {
+  font-size: 38px;
+  font-weight: bold;
+  color: rgb(98, 183, 98);
+}
+
+img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
