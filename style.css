@@ -24,4 +24,26 @@ h1 {
 }
 
 h2 {
-  text-
+  text-align: center;
+  color: black;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: 25px;
+  text-align: center;
+  font-size: small;
+}
+
+.previous {
+  margin-right: 10px;
+}
+
+.next {
+  margin-left: 10px;
+}
