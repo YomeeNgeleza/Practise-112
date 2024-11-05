@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/17d426ab65.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header><strong>Spotify</strong></header>
@@ -25,13 +29,12 @@
       </div>
       <h1><strong>A Hymn For Hani</strong></h1>
       <h2>Kujenga</h2>
-      <audio
-        src="https://embed.music.apple.com/za/album/hymn-for-hani/1682844766?i=1682844767"
-        preload="metadata"
-      ></audio>
-      <button onclick="previousTrack()">Previous</button>
-      <button onclick="playAudio()">Play</button>
-      <button onclick="nextTrack()">Next</button>
+      <audio controls><source src="Adrián Berenguer - Discipline.mp3" /></audio>
+      <div class="button">
+        <button class="previous" onclick="previousTrack()">⏪️</button>
+        <button class="play" onclick="playAudio()">▶️</button>
+        <button class="next" onclick="nextTrack()">⏩️</button>
+      </div>
     </main>
     <footer>
       This was created by<a href="https://www.instagram.com/yomelela._/"
@@ -41,5 +44,7 @@
       >
       in GitHub and hosted on Netlify
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>

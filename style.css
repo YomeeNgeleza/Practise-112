@@ -1,28 +1,27 @@
 body {
-  background-color: rgb(49, 47, 47);
+  background: linear-gradient(to right, rgb(216, 193, 237), rgb(238, 230, 246));
+  background-color: rgb(216, 193, 237);
   font-family: "Roboto", serif;
 }
 
 header {
   font-size: 38px;
   font-weight: bold;
-  color: rgb(98, 183, 98);
+  color: rgb(210, 138, 150);
 }
 
 img {
   position: relative;
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 55%;
   height: auto;
 }
 
 h1 {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 h2 {
-  text-align: center;
-  color: white;
-}
+  text-
