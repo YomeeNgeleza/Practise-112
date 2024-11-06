@@ -18,6 +18,16 @@
   </head>
   <body>
     <header><strong>Spotify</strong></header>
+    <br />
+    <nav>
+      <div class="circle">
+        <i class="fa-solid fa-angle-left"></i>
+      </div>
+      <div class="circle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
     <main>
       <div>
         <a href="https://voteanc.org.za/blog/chris-hani">
@@ -28,12 +38,23 @@
         </a>
       </div>
       <h1><strong>A Hymn For Hani</strong></h1>
-      <h2>Kujenga</h2>
-      <audio controls><source src="Adrián Berenguer - Discipline.mp3" /></audio>
-      <div class="button">
-        <button class="previous" onclick="previousTrack()">⏪️</button>
-        <button class="play" onclick="playAudio()">▶️</button>
-        <button class="next" onclick="nextTrack()">⏩️</button>
+      <p>Kujenga</p>
+      <div class="audio-container">
+        <audio controls>
+          <source src="Adrián Berenguer - Discipline.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+      <input type="range" value="0" id="progress" />
+      <div class="controls">
+        <div>
+          <i class="fa-solid fa-backward"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-play"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-forward"></i>
+        </div>
       </div>
     </main>
     <footer>
