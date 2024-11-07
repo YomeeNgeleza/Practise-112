@@ -14,7 +14,7 @@ img {
   position: relative;
   display: block;
   margin: 0 auto;
-  max-width: 45%;
+  max-width: 35%;
   height: auto;
 
   border: 8px solid
@@ -86,6 +86,9 @@ nav .circle {
   border-radius: 4px;
   cursor: pointer;
   margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #progress::-webkit-slider-thumb {
@@ -122,4 +125,14 @@ nav .circle {
   transform: scale(1.5);
   background: pink;
   color: blueviolet;
+}
+
+input {
+  position: relative;
+  top: -100px;
+}
+
+.controls {
+  position: relative;
+  top: -100px;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Music Player</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,7 @@
     ></script>
   </head>
   <body>
-    <header><strong>Spotify</strong></header>
+    <header><strong>Softify</strong></header>
     <br />
     <nav>
       <div class="circle">
@@ -40,17 +40,18 @@
       <h1><strong>A Hymn For Hani</strong></h1>
       <p>Kujenga</p>
       <div class="audio-container">
-        <audio controls>
+        <audio id="song">
           <source src="Adrián Berenguer - Discipline.mp3" type="audio/mpeg" />
         </audio>
       </div>
+
       <input type="range" value="0" id="progress" />
       <div class="controls">
         <div>
           <i class="fa-solid fa-backward"></i>
         </div>
-        <div>
-          <i class="fa-solid fa-play"></i>
+        <div onclick="playPause()">
+          <i class="fa-solid fa-play" id="ctrlIcon"></i>
         </div>
         <div>
           <i class="fa-solid fa-forward"></i>
@@ -58,12 +59,11 @@
       </div>
     </main>
     <footer>
-      This was created by<a href="https://www.instagram.com/yomelela._/"
-        >Yomelela Ngeleza</a
-      >. Code kept<a href="https://github.com/YomeeNgeleza/Practise">
-        in GitHub</a
-      >
-      in GitHub and hosted on Netlify
+      Coded by
+      <a href="https://www.instagram.com/yomelela._/">Yomelela Ngeleza</a>. Code
+      hosted on<a href="https://github.com/YomeeNgeleza/Practise">on GitHub</a>
+      and website hosted on
+      <a href="https://musicplayer112.netlify.app">Netlify</a>
     </footer>
 
     <script src="index.js"></script>
